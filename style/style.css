@@ -75,8 +75,70 @@ nav ul li a{
     margin-left: 15px;
     color:rgb(178, 170, 170);
 }
-#search{
+#search {
     background-color: orangered;
     color: #fff;
 }
+/* main section style */
+main section{
+  width: 992px;
+  margin: auto;
+}
 
+/* popular section style */
+.popular-section{
+   margin-top: 100px;
+}
+.popular-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.popular-contant-info{
+    width: 400px;
+}
+.popular-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.popular-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(84, 77, 77);
+    
+}
+.list-description{
+    width: 350px;
+}   
+.description{
+   margin-bottom: 10px;
+    padding: 0  10px;
+    font-size: 14px;
+    color:  rgb(84, 77, 77);
+    font-weight: 300;
+}
+.btn-secondary{
+    border: 0;
+    padding: 10px 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 600;
+    color: white ;
+}
+
+@media screen and (max-width:600px) {
+    .banner-section{
+        width: 470px;
+        margin: auto;
+    }
+    .banner-contant{
+      padding: 25px;
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+    
+}
