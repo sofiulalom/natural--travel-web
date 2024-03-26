@@ -28,7 +28,6 @@ nav ul li a{
     margin: auto;
     background-image:linear-gradient(rgba(108, 211, 147, 0.396), rgba(77, 82, 22, 0.287)) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-
     height: 500px;
     border-radius: 10px;
     
@@ -53,6 +52,8 @@ nav ul li a{
 .banner-btn{
    background-color: rgba(72, 56, 56, 0.303);
    padding: 15px 5px;
+   display: flex;
+   justify-content:space-between;
 }
 .btn-primary{
     border: 0;
@@ -128,17 +129,102 @@ main section{
     font-weight: 600;
     color: white ;
 }
+/* newsletar section style */
+
+.newsletar-section{
+    margin-top: 100px;
+}
+.newsletar-container{
+   
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   
+}
+.input-fild-info{
+    width: 350px;
+    border: 1px solid orangered;
+    padding: 50px ;
+    border-radius: 10px;
+}
+.news-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.news-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(83, 73, 73);
+}
+.input-fild{
+    width: 318px;
+    display: block;
+    margin-bottom:10px;
+    border: 0;
+    padding: 15px 20px;
+    outline: none;
+    background-color: rgb(235, 226, 226);
+    border-radius: 10px;
+    font-size: 12px;
+}
+#subscribe-btn{
+    width: 348px;
+    padding: 15px 20px;
+}
+.newsletar-image{
+    width: 450px;
+}
+.newsletar-image img{
+    width: 100%;
+}
+
 
 @media screen and (max-width:600px) {
+    nav{
+       flex-direction: column;
+       margin-bottom: 25px;
+    }
+    nav ul {
+        display: none;
+    }
     .banner-section{
-        width: 470px;
-        margin: auto;
+        width: 645px;
+        margin:0 100px;
     }
     .banner-contant{
-      padding: 25px;
+      padding:50px;
     }
+    .banner-btn{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .btn-primary{
+       padding: 10px;
+    }
+    main section{
+     width: 645px;
+     margin: 150px;
+    }
+    .newsletar-container,
     .popular-container{
         flex-direction: column;
+        gap: 40px;
+        
     }
+   
+    .head-info-container{
+        width: 500px;
+    }
+    .popular-contant-info{
+        margin:20px 0px;
+        width: 550px;
+    }
+    .list-description{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    
     
 }
