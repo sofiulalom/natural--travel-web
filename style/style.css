@@ -279,7 +279,7 @@ footer hr{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
      grid-template-rows: repeat(2, 1fr);
-     gap: 30px;
+     gap: 20px;
    
     
 }
@@ -298,16 +298,16 @@ footer hr{
      
 }
 .choose-card {
-    width: 350px;
+    width: 400px;
     background-color: rgba(245, 245, 241, 0.897) ;
     padding: 15px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 .choose-card img{
     width: 100%;
-    width: 50px;
+    width: 80px;
     margin: 5px 0;
 }
 .choose-card-title{
@@ -444,12 +444,13 @@ media quearis responsiv.
     }
     .choose-card {
         width: 820px;
-       padding:50px 100px;
+       padding: 80px 100px;
     }
     .choose-card img{
     width: 100%;
-    width: 100px;
+    width: 200px;
     margin: 5px 0;
+    padding: 10px;
 }
     .choose-card-title{
     font-size: 40px;
