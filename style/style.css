@@ -443,8 +443,8 @@ media quearis responsiv.
         width: 100%;
     }
     .choose-card {
-        width: 820px;
-       padding: 80px 100px;
+      width:100%;
+       padding: 50px;
     }
     .choose-card img{
     width: 100%;
